@@ -3261,11 +3261,11 @@ body.is-menu-visible #menu .close {
   margin: 1rem;
   box-shadow: 5px 5px 10px grey;
 }
-.slogan {
+/* .slogan {
   font-size: 18px;
   font-weight: 600;
   color: #807dd4;
-}
+} */
 .accolor {
   color: aliceblue;
   background-color: #807dd4;
