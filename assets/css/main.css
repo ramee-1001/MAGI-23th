@@ -3426,3 +3426,29 @@ body.is-menu-visible #menu .close {
     padding: 0 1.25em;
   }
 }
+
+.history {
+  border-left: thin solid #3b36cf;
+  height: 100%;
+}
+.history h2 {
+  position: relative;
+  font-size: 20px;
+  color: #3b36cf;
+  line-height: 1;
+}
+
+.history div {
+  position: relative;
+  padding: 0 0 0 40px;
+}
+
+.history ol {
+  padding: 10px 0 10px;
+}
+
+.history ul {
+  font-size: 15px;
+  color: #000;
+  line-height: 1px;
+}
