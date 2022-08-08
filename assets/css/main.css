@@ -609,7 +609,7 @@ hr.major {
 
 .row {
   margin-top: 0;
-  margin-left: -2em;
+  margin-left: 0;
 }
 
 .row > * {
@@ -3451,4 +3451,29 @@ body.is-menu-visible #menu .close {
   font-size: 15px;
   color: #000;
   line-height: 1px;
+}
+
+.fs {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.demoimg {
+  margin-top: 1em;
+}
+
+/*scroll*/
+body::-webkit-scrollbar {
+  width: 9px; /* 스크롤바의 너비 */
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 30%; /* 스크롤바의 길이 */
+  background: #807dd476; /* 스크롤바의 색상 */
+
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgba(220, 192, 253, 0); /*스크롤바 뒷 배경 색상*/
 }
