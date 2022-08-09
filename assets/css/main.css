@@ -167,7 +167,7 @@ textarea {
 }
 
 body {
-  -ms-overflow-style: scrollbar;
+  -ms-overflow-style: auto;
 }
 
 @media screen and (max-width: 480px) {
@@ -247,7 +247,7 @@ a {
 
 a:hover {
   border-bottom-color: transparent;
-  color: #f2849e !important;
+  color: #3b36cf !important;
 }
 
 strong,
@@ -1952,8 +1952,8 @@ header p {
 }
 
 .icon.style2:hover {
-  color: #f2849e;
-  border-color: #f2849e;
+  color: #3b36cf;
+  border-color: #3b36cf;
 }
 
 .icon.style2:active {
@@ -2267,8 +2267,8 @@ input[type="email"]:focus,
 input[type="tel"]:focus,
 select:focus,
 textarea:focus {
-  border-bottom-color: #f2849e;
-  box-shadow: inset 0 -1px 0 0 #f2849e;
+  border-bottom-color: #3b36cf;
+  box-shadow: inset 0 -1px 0 0 #3b36cf;
 }
 
 select {
@@ -2372,8 +2372,8 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #f2849e;
-  box-shadow: 0 0 0 1px #f2849e;
+  border-color: #3b36cf;
+  box-shadow: 0 0 0 1px #3b36cf;
 }
 
 input[type="checkbox"] + label:before {
@@ -2595,8 +2595,8 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover,
 .button:hover {
-  color: #f2849e !important;
-  box-shadow: inset 0 0 0 2px #f2849e;
+  color: #3b36cf !important;
+  box-shadow: inset 0 0 0 2px #3b36cf;
 }
 
 input[type="submit"]:active,
@@ -2638,7 +2638,7 @@ input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background-color: #f2849e;
+  background-color: #3b36cf;
 }
 
 input[type="submit"].primary:active,
@@ -2646,7 +2646,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-  background-color: #ee5f81;
+  background-color: #3b36cf;
 }
 
 input[type="submit"].disabled,
@@ -3082,7 +3082,7 @@ body.is-touch .tiles article .content {
   max-width: 80%;
   height: 100%;
   -webkit-overflow-scrolling: touch;
-  background: #585858;
+  background: #707070;
   color: #ffffff;
   cursor: default;
   visibility: hidden;
@@ -3261,11 +3261,7 @@ body.is-menu-visible #menu .close {
   margin: 1rem;
   box-shadow: 5px 5px 10px grey;
 }
-/* .slogan {
-  font-size: 18px;
-  font-weight: 600;
-  color: #807dd4;
-} */
+
 .accolor {
   color: aliceblue;
   background-color: #807dd4;
