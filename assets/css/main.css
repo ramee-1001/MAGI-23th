@@ -261,7 +261,7 @@ i {
 }
 
 p {
-  margin: 0 0 2em 0;
+  margin: 2px 0 1em 0;
 }
 
 h1 {
@@ -3450,7 +3450,7 @@ body.is-menu-visible #menu .close {
 }
 
 .fs {
-  font-size: 22px;
+  font-size: 21px;
   font-weight: bold;
   padding-top: 0;
 }
