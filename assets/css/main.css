@@ -3456,6 +3456,7 @@ body.is-menu-visible #menu .close {
 .fs {
   font-size: 22px;
   font-weight: bold;
+  padding-top: 0;
 }
 
 .demoimg {
@@ -3464,12 +3465,13 @@ body.is-menu-visible #menu .close {
 
 /*scroll*/
 body::-webkit-scrollbar {
-  width: 9px; /* 스크롤바의 너비 */
+  width: 7px; /* 스크롤바의 너비 */
+  overflow: auto;
 }
 
 body::-webkit-scrollbar-thumb {
-  height: 30%; /* 스크롤바의 길이 */
-  background: #807dd476; /* 스크롤바의 색상 */
+  height: 40%; /* 스크롤바의 길이 */
+  background: #88889a45; /* 스크롤바의 색상 */
 
   border-radius: 10px;
 }
